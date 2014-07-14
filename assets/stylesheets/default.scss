@@ -1,0 +1,12 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  @include font-size(1.8);
+  @include line-height(2.4);
+}
+
+h1 {
+  color: $red;
+}

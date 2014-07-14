@@ -1,0 +1,12 @@
+@mixin font-size($size: 1.4) {
+  font-size: ($size * 10) + px;
+  font-size: $size + rem;
+}
+
+@mixin line-height($size: 1.6, $force-height: false) {
+  @if $force-height == true {
+    height: ($size * 10) + px;
+  }
+  line-height: ($size * 10) + px;
+  line-height: $size + rem;
+}
