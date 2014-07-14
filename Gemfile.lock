@@ -7,6 +7,7 @@ GEM
     coffee-script-source (1.7.1)
     execjs (2.2.1)
     hike (1.2.3)
+    json (1.8.1)
     kgio (2.9.2)
     multi_json (1.10.1)
     rack (1.5.2)
@@ -38,6 +39,9 @@ GEM
       sprockets (~> 2.0)
       tilt (~> 1.1)
     tilt (1.4.1)
+    uglifier (2.5.1)
+      execjs (>= 0.3.0)
+      json (>= 1.8.0)
     unicorn (4.8.3)
       kgio (~> 2.6)
       rack
@@ -50,4 +54,5 @@ DEPENDENCIES
   rack
   sinatra
   sinatra-asset-pipeline
+  uglifier
   unicorn
